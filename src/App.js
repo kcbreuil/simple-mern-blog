@@ -13,7 +13,7 @@ export const App = () => {
           <Route path="/articles/new" component={ArticleForm} />
           <Route path="/articles/:articleId/edit" component={ArticleForm} />
           <Route path="/articles/:articleId" component={Article} />
-          <Route path="/articles" component={Articles} />
+          <Route path="/" component={Articles} />
         </Switch>
       </Container>
     </BrowserRouter>
